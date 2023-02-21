@@ -18,7 +18,7 @@
         "en_name": "Coding",
         "icon": "fa-regular fa-folder",
         "is_hot": true,
-        "call": "/code"
+        "call": "./code"
     },
     {
         "name": "博客友链",
