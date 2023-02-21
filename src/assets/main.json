@@ -7,7 +7,7 @@
         "web": [
             {
                 "url": "https://wenutu.top",
-                "logo": "././assets/images/logos/main/main/wenutu.png",
+                "logo": "./assets/images/logos/main/main/wenutu.png",
                 "title": "站长主页",
                 "desc": "站长主页"
             }
@@ -28,7 +28,7 @@
         "web": [
             {
                 "url": "https://blog.wenutu.top",
-                "logo": "././assets/images/logos/main/main/wenutu.png",
+                "logo": "./assets/images/logos/main/main/wenutu.png",
                 "title": "站长博客",
                 "desc": "站长个人博客，仍在不断完善中"
             }
