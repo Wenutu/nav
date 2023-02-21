@@ -209,19 +209,19 @@
                         "url": "http://docker.wenutu.top",
                         "logo": "./assets/images/logos/main/main/portainer.png",
                         "title": "Docker Portainer",
-                        "desc": "Portainer面板——Docker"
+                        "desc": "Portainer面板 ——Docker"
                     },
                     {
                         "url": "http://alist.wenutu.top",
                         "logo": "./assets/images/logos/main/main/AList.svg",
                         "title": "Docker Alist",
-                        "desc": "Alist网盘聚合——Docker"
+                        "desc": "Alist网盘聚合 ——Docker"
                     },
                     {
                         "url": "http://xiaoya.wenutu.top",
                         "logo": "./assets/images/logos/main/main/AList.svg",
                         "title": "Docker xiaoya",
-                        "desc": "xiaoya超集——Docker"
+                        "desc": "xiaoya超集 ——Docker"
                     }
                 ]
             },
