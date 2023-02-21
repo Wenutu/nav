@@ -18,7 +18,7 @@
         "en_name": "Coding",
         "icon": "fa-regular fa-folder",
         "is_hot": true,
-        "call": "./code"
+        "call": "/code"
     },
     {
         "name": "博客友链",
@@ -207,19 +207,19 @@
                 "web": [
                     {
                         "url": "http://docker.wenutu.top",
-                        "logo": "././assets/images/logos/main/main/portainer.png",
+                        "logo": "./assets/images/logos/main/main/portainer.png",
                         "title": "Docker Portainer",
                         "desc": "Portainer面板——Docker"
                     },
                     {
                         "url": "http://alist.wenutu.top",
-                        "logo": "././assets/images/logos/main/main/AList.svg",
+                        "logo": "./assets/images/logos/main/main/AList.svg",
                         "title": "Docker Alist",
                         "desc": "Alist网盘聚合——Docker"
                     },
                     {
                         "url": "http://xiaoya.wenutu.top",
-                        "logo": "././assets/images/logos/main/main/AList.svg",
+                        "logo": "./assets/images/logos/main/main/AList.svg",
                         "title": "Docker xiaoya",
                         "desc": "xiaoya超集——Docker"
                     }
@@ -231,7 +231,7 @@
                 "web": [
                     {
                         "url": "http://docker.wenutu.top",
-                        "logo": "././assets/images/logos/main/main/portainer.png",
+                        "logo": "./assets/images/logos/main/main/portainer.png",
                         "title": "Docker Portainer",
                         "desc": "Portainer面板——Docker"
                     }
