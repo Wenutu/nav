@@ -1,0 +1,242 @@
+[
+    {
+        "name": "常用推荐",
+        "en_name": "Recommended",
+        "icon": "linecons-star",
+        "is_hot": true,
+        "web": [
+            {
+                "url": "https://wenutu.top",
+                "logo": "././assets/images/logos/main/main/wenutu.png",
+                "title": "站长主页",
+                "desc": "站长主页"
+            }
+        ]
+    },
+    {
+        "name": "编程必备",
+        "en_name": "Coding",
+        "icon": "fa-regular fa-folder",
+        "is_hot": true,
+        "call": "/code"
+    },
+    {
+        "name": "博客友链",
+        "en_name": "Blog",
+        "icon": "linecons-doc",
+        "is_hot": true,
+        "web": [
+            {
+                "url": "https://blog.wenutu.top",
+                "logo": "././assets/images/logos/main/main/wenutu.png",
+                "title": "站长博客",
+                "desc": "站长个人博客，仍在不断完善中"
+            }
+        ]
+    },
+    {
+        "name": "社区资讯",
+        "en_name": "Information",
+        "icon": "linecons-doc",
+        "web": [
+            {
+                "url": "https://www.leiphone.com/",
+                "logo": "./assets/images/logos/main/leiphone.png",
+                "title": "雷锋网",
+                "desc": "人工智能和智能硬件领域的互联网科技媒体"
+            }
+        ]
+    },
+    {
+        "name": "素材资源",
+        "en_name": "Resources",
+        "icon": "linecons-thumbs-up",
+        "children": [
+            {
+                "name": "图标素材",
+                "en_name": "Icon",
+                "web": [
+                    {
+                        "url": "https://www.iconfinder.com",
+                        "logo": "./assets/images/logos/main/Iconfinder.png",
+                        "title": "Iconfinder",
+                        "desc": "2,100,000+ free and premium vector icons"
+                    },
+                    {
+                        "url": "http://www.iconfont.cn",
+                        "logo": "./assets/images/logos/main/iconfont.png",
+                        "title": "iconfont",
+                        "desc": "阿里巴巴矢量图标库"
+                    },
+                    {
+                        "url": "https://fontawesome.com/versions",
+                        "logo": "./assets/images/logos/main/fa.png",
+                        "title": "Font Awesome",
+                        "desc": "前端常用font"
+                    }
+                ]
+            },
+            {
+                "name": "摄影图库",
+                "en_name": "Free Photos",
+                "web": [
+                    {
+                        "url": " https://pixabay.com",
+                        "logo": "./assets/images/logos/main/pixabay.png",
+                        "title": "Pixabay",
+                        "desc": "免费正版高清图片素材库，拥有超过2.7百万张优质图片和视频素材，让你轻松应对各种设计场景"
+                    }
+                ]
+            },
+            {
+                "name": "PPT资源",
+                "en_name": "PPT",
+                "web": [
+                    {
+                        "url": "https://www.officeplus.cn/PPT/template/",
+                        "logo": "./assets/images/logos/main/officeplus.png",
+                        "title": "OfficePLUS",
+                        "desc": "OfficePLUS，微软Office官方在线模板网站！"
+                    },
+                    {
+                        "url": "http://www.ypppt.com/",
+                        "logo": "./assets/images/logos/main/ypppt.png",
+                        "title": "优品PPT",
+                        "desc": "高质量的模版，而且还有PPT图表，PPT背景图等资源"
+                    }
+                ]
+            },
+            {
+                "name": "电子书资源",
+                "en_name": "Ebook",
+                "web": [
+                    {
+                        "url": "https://zlibrary.to",
+                        "logo": "./assets/images/logos/main/zlibrary.png",
+                        "title": "z-library",
+                        "desc": "电子书合集"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "学习教程",
+        "en_name": "Tutorial",
+        "icon": "linecons-pencil",
+        "children": [
+            {
+                "name": "设计规范",
+                "en_name": "Design Guidelines",
+                "web": [
+                    {
+                        "url": "http://designguidelines.co/",
+                        "logo": "./assets/images/logos/main/designguidelines.png",
+                        "title": "Design Guidelines",
+                        "desc": "Design Guidelines &mdash; The way products are built."
+                    }
+                ]
+            },
+            {
+                "name": "视频教程",
+                "en_name": "Video Tutorial",
+                "web": [
+                    {
+                        "url": "http://www.photoshoplady.com/",
+                        "logo": "./assets/images/logos/main/PhotoshopLady.png",
+                        "title": "Photoshop Lady",
+                        "desc": "Your Favourite Photoshop Tutorials in One Place"
+                    }
+                ]
+            },
+            {
+                "name": "设计文章",
+                "en_name": "Design Article",
+                "web": [
+                    {
+                        "url": "http://www.uisdc.com/",
+                        "logo": "./assets/images/logos/main/uisdc.png",
+                        "title": "优设网",
+                        "desc": "设计师交流学习平台"
+                    }
+                ]
+            },
+            {
+                "name": "设计电台",
+                "en_name": "Design FM",
+                "web": [
+                    {
+                        "url": "http://uxcoffee.co/",
+                        "logo": "./assets/images/logos/main/uxcoffee.png",
+                        "title": "UX Coffee",
+                        "desc": "《UX Coffee 设计咖》是一档关于用户体验的播客节目。我们邀请来自硅谷和国内的学者和职人来聊聊「产品设计」、「用户体验」和「个人成长」。"
+                    }
+                ]
+            },
+            {
+                "name": "交互设计",
+                "en_name": "UX",
+                "is_hot": true,
+                "web": [
+                    {
+                        "url": "http://littlebigdetails.com/",
+                        "logo": "./assets/images/logos/main/littlebigdetails.png",
+                        "title": "Little Big Details",
+                        "desc": "Little Big Details is a curated collection of the finer details of design, updated every day. "
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "实用工具",
+        "en_name": "Tools",
+        "icon": "linecons-diamond",
+        "web": [
+            {}
+        ]
+    },
+    {
+        "name": "站长自用",
+        "en_name": "Private Use",
+        "icon": "linecons-user",
+        "children": [
+            {
+                "name": "Docker Build",
+                "en_name": "Docker Build",
+                "web": [
+                    {
+                        "url": "http://docker.wenutu.top",
+                        "logo": "././assets/images/logos/main/main/portainer.png",
+                        "title": "Docker Portainer",
+                        "desc": "Portainer面板——Docker"
+                    },
+                    {
+                        "url": "http://alist.wenutu.top",
+                        "logo": "././assets/images/logos/main/main/AList.svg",
+                        "title": "Docker Alist",
+                        "desc": "Alist网盘聚合——Docker"
+                    },
+                    {
+                        "url": "http://xiaoya.wenutu.top",
+                        "logo": "././assets/images/logos/main/main/AList.svg",
+                        "title": "Docker xiaoya",
+                        "desc": "xiaoya超集——Docker"
+                    }
+                ]
+            },
+            {
+                "name": "网站运营",
+                "en_name": "Web Dashboard",
+                "web": [
+                    {
+                        "url": "http://docker.wenutu.top",
+                        "logo": "././assets/images/logos/main/main/portainer.png",
+                        "title": "Docker Portainer",
+                        "desc": "Portainer面板——Docker"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,81 @@
+[
+  {
+    "name": "返回上级",
+    "en_name": "Back To Main",
+    "icon": "fa-thin fa-arrow-left",
+    "call": "/"
+  },
+  {
+    "name": "编程语言",
+    "en_name": "Language",
+    "web": [
+      {
+        "url": "https://www.adobe.com/cn/products/photoshop.html",
+        "logo": "./assets/images/logos/code/photoshop.png",
+        "title": "photoshop",
+        "desc": "Photoshop不需要解释"
+      }
+    ]
+  },
+  {
+    "name": "刷题",
+    "en_name": "Oj",
+    "web": [
+      {
+        "url": "https://sketchapp.com/",
+        "logo": "./assets/images/logos/code/sketchapp.png",
+        "title": "Sketch",
+        "desc": "The digital design toolkit"
+      }
+    ]
+  },
+  {
+    "name": "可视化网站",
+    "en_name": "Visualization Web",
+    "web": [
+      {
+        "url": "https://www.adobe.com/cn/products/aftereffects/",
+        "logo": "./assets/images/logos/code/AdobeAfterEffectsCC.png",
+        "title": "Adobe After Effects CC",
+        "desc": "电影般的视觉效果和动态图形。"
+      }
+    ]
+  },
+  {
+    "name": "开源项目",
+    "en_name": "Open Source Project",
+    "web": [
+      {
+        "url": "http://khroma.co/generator/",
+        "logo": "./assets/images/logos/code/khroma.png",
+        "title": "khroma",
+        "desc": "Khroma is the fastest way to discover, search, and save color combos you'll want to use."
+      }
+    ]
+  },
+  {
+    "name": "镜像网站",
+    "en_name": "Mirror Web",
+    "icon":"linecons-diamond",
+    "web": [
+      {
+        "url": "https://www.latexlive.com",
+        "logo": "./assets/images/logos/code/tuna.png",
+        "title": "清华大学开源软件镜像站",
+        "desc": "清华大学开源软件镜像站"
+      },
+      {
+        "url":"https://pkgs.org/",
+        "logo":"./assets/images/logos/code/pkgs.png",
+        "title":"Pkgs",
+        "desc":"最大的linux和unix操作系统存储库和各种语言软件包"
+      },
+      {
+        "url":"http://cdimage.ubuntu.com/ ",
+        "logo":"./assets/images/logos/code/ubuntu.png",
+        "title":"ubuntu镜像",
+        "desc":"所有版本的ubuntu这里都有"
+      }
+    ]
+  }
+]
