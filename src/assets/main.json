@@ -7,7 +7,7 @@
         "web": [
             {
                 "url": "https://wenutu.top",
-                "logo": "./assets/images/logos/main/main/wenutu.png",
+                "logo": "./assets/images/logos/main/wenutu.png",
                 "title": "站长主页",
                 "desc": "站长主页"
             }
@@ -28,7 +28,7 @@
         "web": [
             {
                 "url": "https://blog.wenutu.top",
-                "logo": "./assets/images/logos/main/main/wenutu.png",
+                "logo": "./assets/images/logos/main/wenutu.png",
                 "title": "站长博客",
                 "desc": "站长个人博客，仍在不断完善中"
             }
@@ -207,19 +207,19 @@
                 "web": [
                     {
                         "url": "http://docker.wenutu.top",
-                        "logo": "./assets/images/logos/main/main/portainer.png",
+                        "logo": "./assets/images/logos/main/portainer.png",
                         "title": "Docker Portainer",
                         "desc": "Portainer面板 ——Docker"
                     },
                     {
                         "url": "http://alist.wenutu.top",
-                        "logo": "./assets/images/logos/main/main/AList.svg",
+                        "logo": "./assets/images/logos/main/AList.svg",
                         "title": "Docker Alist",
                         "desc": "Alist网盘聚合 ——Docker"
                     },
                     {
                         "url": "http://xiaoya.wenutu.top",
-                        "logo": "./assets/images/logos/main/main/AList.svg",
+                        "logo": "./assets/images/logos/main/AList.svg",
                         "title": "Docker xiaoya",
                         "desc": "xiaoya超集 ——Docker"
                     }
@@ -231,7 +231,7 @@
                 "web": [
                     {
                         "url": "http://docker.wenutu.top",
-                        "logo": "./assets/images/logos/main/main/portainer.png",
+                        "logo": "./assets/images/logos/main/portainer.png",
                         "title": "Docker Portainer",
                         "desc": "Portainer面板——Docker"
                     }

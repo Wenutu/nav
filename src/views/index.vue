@@ -117,9 +117,9 @@ import WebItem from "../components/WebItem.vue";
 import Footer from "../components/Footer.vue";
 import SearchBox from "../components/SearchBox.vue";
 // data  add sites-data
-//import MainData from "../assets/main.json";
-//import CodeData from "../assets/code.json";
-import axios from 'axios'
+import MainData from "../assets/main.json";
+import CodeData from "../assets/code.json";
+//import axios from 'axios'
 export default {
     name: "Index",
     props: {
@@ -149,14 +149,15 @@ export default {
     },
     created() {
         // 获取数据
+        /*
         axios.get('https://api.wenutu.top/nav/'+this.sites)
             .then(res => {
                 this.items=res.data
             })
+        */
         // 默认中文
         this.lang = this.langList[0];
         // 选择站点
-        /*
         switch (this.sites) {
             case "main":
                 this.items = MainData;
@@ -167,7 +168,6 @@ export default {
             default:
                 this.items = MainData
         }
-        */
     },
     methods: {
         transName(webItem) {
