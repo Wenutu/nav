@@ -8,6 +8,7 @@
   {
     "name": "编程语言",
     "en_name": "Language",
+    "icon":"fa-solid fa-language",
     "web": [
       {
         "url": "https://www.adobe.com/cn/products/photoshop.html",
@@ -20,6 +21,7 @@
   {
     "name": "刷题",
     "en_name": "Oj",
+    "icon":"fa-solid fa-code",
     "web": [
       {
         "url": "https://sketchapp.com/",
@@ -32,6 +34,7 @@
   {
     "name": "可视化网站",
     "en_name": "Visualization Web",
+    "icon":"fa-solid fa-eye",
     "web": [
       {
         "url": "https://www.adobe.com/cn/products/aftereffects/",
@@ -44,6 +47,7 @@
   {
     "name": "开源项目",
     "en_name": "Open Source Project",
+    "icon":"fa-solid fa-diagram-project",
     "web": [
       {
         "url": "http://khroma.co/generator/",
@@ -59,7 +63,7 @@
     "icon":"linecons-diamond",
     "web": [
       {
-        "url": "https://www.latexlive.com",
+        "url": "https://mirrors.tuna.tsinghua.edu.cn",
         "logo": "./assets/images/logos/code/tuna.png",
         "title": "清华大学开源软件镜像站",
         "desc": "清华大学开源软件镜像站"
