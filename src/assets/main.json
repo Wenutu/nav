@@ -3,13 +3,18 @@
         "name": "常用推荐",
         "en_name": "Recommended",
         "icon": "fa-solid fa-star",
-        "is_hot": true,
         "web": [
             {
                 "url": "https://wenutu.top",
-                "logo": "./assets/images/logos/main/wenutu.png",
+                "logo": "/assets/images/logos/main/wenutu.png",
                 "title": "站长主页",
                 "desc": "站长主页"
+            },
+            {
+                "url": "https://console.cloud.tencent.com/",
+                "logo": "https://cloudcache.tencent-cloud.com/open_proj/proj_qcloud_v2/gateway/shareicons/cloud.png",
+                "title": "腾讯云",
+                "desc": "腾讯云控制台"
             }
         ]
     },
@@ -21,29 +26,33 @@
         "call": "/code"
     },
     {
-        "name": "博客友链",
-        "en_name": "Blog",
-        "icon": "fa-solid fa-blog",
-        "is_hot": true,
-        "web": [
-            {
-                "url": "https://blog.wenutu.top",
-                "logo": "./assets/images/logos/main/wenutu.png",
-                "title": "站长博客",
-                "desc": "站长个人博客，仍在不断完善中"
-            }
-        ]
-    },
-    {
         "name": "社区资讯",
         "en_name": "Information",
         "icon": "fa-solid fa-rss",
         "web": [
             {
-                "url": "https://www.leiphone.com/",
-                "logo": "./assets/images/logos/main/leiphone.png",
-                "title": "雷锋网",
-                "desc": "人工智能和智能硬件领域的互联网科技媒体"
+                "url": "https://stackoverflow.com/",
+                "logo": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded",
+                "title": "Stack Overflow",
+                "desc": "友好的程序员交流社区"
+            },
+            {
+                "url": "https://www.githubs.cn/",
+                "logo": "/assets/images/logos/main/github.png",
+                "title": "Github中文社区",
+                "desc": "Github项目推荐"
+            },
+            {
+                "url": "https://discord.com/",
+                "logo": "/assets/images/logos/main/discord.png",
+                "title": "Discord",
+                "desc": "游戏、艺术社区"
+            },
+            {
+                "url": "https://www.notion.so/",
+                "logo": "/assets/images/logos/main/notion.png",
+                "title": "Notion",
+                "desc": "笔记"
             }
         ]
     },
@@ -51,6 +60,7 @@
         "name": "素材资源",
         "en_name": "Resources",
         "icon": "fa-solid fa-box-archive",
+        "is_hot": true,
         "children": [
             {
                 "name": "图标素材",
@@ -58,19 +68,19 @@
                 "web": [
                     {
                         "url": "https://www.iconfinder.com",
-                        "logo": "./assets/images/logos/main/Iconfinder.png",
+                        "logo": "/assets/images/logos/main/Iconfinder.png",
                         "title": "Iconfinder",
                         "desc": "2,100,000+ free and premium vector icons"
                     },
                     {
                         "url": "http://www.iconfont.cn",
-                        "logo": "./assets/images/logos/main/iconfont.png",
+                        "logo": "/assets/images/logos/main/iconfont.png",
                         "title": "iconfont",
                         "desc": "阿里巴巴矢量图标库"
                     },
                     {
                         "url": "https://fontawesome.com/versions",
-                        "logo": "./assets/images/logos/main/fa.png",
+                        "logo": "/assets/images/logos/main/fa.png",
                         "title": "Font Awesome",
                         "desc": "前端常用font"
                     }
@@ -82,7 +92,7 @@
                 "web": [
                     {
                         "url": " https://pixabay.com",
-                        "logo": "./assets/images/logos/main/pixabay.png",
+                        "logo": "/assets/images/logos/main/pixabay.png",
                         "title": "Pixabay",
                         "desc": "免费正版高清图片素材库，拥有超过2.7百万张优质图片和视频素材，让你轻松应对各种设计场景"
                     }
@@ -94,13 +104,13 @@
                 "web": [
                     {
                         "url": "https://www.officeplus.cn/PPT/template/",
-                        "logo": "./assets/images/logos/main/officeplus.png",
+                        "logo": "/assets/images/logos/main/officeplus.png",
                         "title": "OfficePLUS",
                         "desc": "OfficePLUS，微软Office官方在线模板网站！"
                     },
                     {
                         "url": "http://www.ypppt.com/",
-                        "logo": "./assets/images/logos/main/ypppt.png",
+                        "logo": "/assets/images/logos/main/ypppt.png",
                         "title": "优品PPT",
                         "desc": "高质量的模版，而且还有PPT图表，PPT背景图等资源"
                     }
@@ -112,28 +122,76 @@
                 "web": [
                     {
                         "url": "https://zlibrary.to",
-                        "logo": "./assets/images/logos/main/zlibrary.png",
+                        "logo": "/assets/images/logos/main/zlibrary.png",
                         "title": "z-library",
                         "desc": "电子书合集"
+                    }
+                ]
+            },
+            {
+                "name": "软件资源",
+                "en_name": "Software",
+                "web": [
+                    {
+                        "url": "https://decrypt.day/",
+                        "logo": "https://decrypt.day/favicon/apple-touch-icon.png",
+                        "title": "Decrypt",
+                        "desc": "ipa资源站"
                     }
                 ]
             }
         ]
     },
     {
-        "name": "学习教程",
-        "en_name": "Tutorial",
+        "name": "网盘邮箱",
+        "en_name": "Driver Email",
         "icon": "fa-solid fa-school",
         "children": [
             {
-                "name": "设计规范",
-                "en_name": "Design Guidelines",
+                "name": "网盘",
+                "en_name": "Driver",
                 "web": [
                     {
                         "url": "http://designguidelines.co/",
-                        "logo": "./assets/images/logos/main/designguidelines.png",
-                        "title": "Design Guidelines",
-                        "desc": "Design Guidelines &mdash; The way products are built."
+                        "logo": "/assets/images/logos/main/aliyun.png",
+                        "title": "阿里云盘",
+                        "desc": "不限速的网盘"
+                    },
+                    {
+                        "url": "https://pan.baidu.com/",
+                        "logo": "/assets/images/logos/main/baidudisk.png",
+                        "title": "百度云盘",
+                        "desc": "百度网盘"
+                    },
+                    {
+                        "url": "https://drive.google.com/",
+                        "logo": "https://ssl.gstatic.com/images/branding/product/2x/drive_2020q4_48dp.png",
+                        "title": "Google Driver",
+                        "desc": "谷歌云盘"
+                    }
+                ]
+            },
+            {
+                "name": "邮箱",
+                "en_name": "Email",
+                "web": [
+                    {
+                        "url": "https://outlook.live.com/",
+                        "logo": "/assets/images/logos/main/outlook.png",
+                        "title": "Outlook",
+                        "desc": "Outlook邮箱网页版"
+                    },
+                    {
+                        "url": "https://mail.google.com/",
+                        "logo": "/assets/images/logos/main/gmail.png",
+                        "title": "Gmail",
+                        "desc": "Gmail Online"
+                    },
+                    {
+                        "url": "https://wx.mail.qq.com",
+                        "logo": "https://mail.qq.com/zh_CN/htmledition/images/favicon/qqmail_favicon_32h.png",
+                        "title": "QQ 邮箱",
+                        "desc": "QQ 邮箱网页版"
                     }
                 ]
             }
@@ -143,8 +201,63 @@
         "name": "实用工具",
         "en_name": "Tools",
         "icon": "fa-solid fa-toolbox",
+        "children": [
+            {
+                "name": "排版编辑",
+                "en_name": "Typesetting",
+                "web": [
+                    {
+                        "url": "https://www.latexlive.com/",
+                        "logo": "/assets/images/logos/main/latex.png",
+                        "title": "Latex在线编辑器",
+                        "desc": "在线等latex编辑器"
+                    },
+                    {
+                        "url": "https://www.mdeditor.tw/",
+                        "logo": "/assets/images/logos/main/mdeditor.png",
+                        "title": "MdEditor",
+                        "desc": "Markdown语法和编辑器"
+                    }
+                ]
+            },
+            {
+                "name": "图片编辑",
+                "en_name": "Photo",
+                "web": [
+                    {
+                        "url": "https://www.fotor.com/",
+                        "logo": "https://www.fotor.com/_hub/_next/static/images/favicon-d4b8dbe4630a2bc790117e61267bbb33.png",
+                        "title": "Fotor",
+                        "desc": "简单的在线设计"
+                    }
+                ]
+            },
+            {
+                "name": "VPN",
+                "en_name": "VPN",
+                "is_hot": true,
+                "web": [
+                    {
+                        "url": "https://w1.v2free.top/auth/register?code=9OxL",
+                        "logo": "https://w1.v2free.top/images/authlogo.jpg",
+                        "title": "V2free",
+                        "desc": "多终端，签到领流量，免费也可以很强大"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "博客友链",
+        "en_name": "Blog",
+        "icon": "fa-solid fa-blog",
         "web": [
-            {}
+            {
+                "url": "https://blog.wenutu.top",
+                "logo": "/assets/images/logos/main/wenutu.png",
+                "title": "站长博客",
+                "desc": "站长个人博客，仍在不断完善中"
+            }
         ]
     },
     {
@@ -158,19 +271,19 @@
                 "web": [
                     {
                         "url": "http://docker.wenutu.top",
-                        "logo": "./assets/images/logos/main/portainer.png",
+                        "logo": "https://www.portainer.io/hubfs/crane-icon.svg",
                         "title": "Docker Portainer",
                         "desc": "Portainer面板 ——Docker"
                     },
                     {
                         "url": "http://alist.wenutu.top",
-                        "logo": "./assets/images/logos/main/AList.png",
+                        "logo": "https://alist.nn.ci/logo.svg",
                         "title": "Docker Alist",
                         "desc": "Alist网盘聚合 ——Docker"
                     },
                     {
                         "url": "http://xiaoya.wenutu.top",
-                        "logo": "./assets/images/logos/main/AList.png",
+                        "logo": "https://alist.nn.ci/logo.svg",
                         "title": "Docker xiaoya",
                         "desc": "xiaoya超集 ——Docker"
                     }
@@ -181,10 +294,28 @@
                 "en_name": "Web Operations",
                 "web": [
                     {
-                        "url": "https://console.cloud.tencent.com/lighthouse",
-                        "logo": "./assets/images/logos/main/portainer.png",
-                        "title": "Docker Portainer",
-                        "desc": "Portainer面板——Docker"
+                        "url": "https://umami.wenutu.top/",
+                        "logo": "https://umami.is/favicon-32x32.png",
+                        "title": "Docker Umami",
+                        "desc": "站点统计"
+                    }
+                ]
+            },
+            {
+                "name": "服务器",
+                "en_name": "Server",
+                "web": [
+                    {
+                        "url": "https://console.cloud.tencent.com/",
+                        "logo": "https://cloudcache.tencent-cloud.com/open_proj/proj_qcloud_v2/gateway/shareicons/cloud.png",
+                        "title": "腾讯云",
+                        "desc": "腾讯云控制台"
+                    },
+                    {
+                        "url": "https://console.dnspod.cn/",
+                        "logo": "https://cloudcache.tencent-cloud.com/open_proj/proj_qcloud_v2/gateway/shareicons/cloud.png",
+                        "title": "腾讯云DNS",
+                        "desc": "腾讯云DNS控制台"
                     }
                 ]
             }
