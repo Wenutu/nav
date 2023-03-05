@@ -3,7 +3,7 @@ import App from "./App.vue";
 import VueRouter from "vue-router";
 import Index from "./views/index.vue";
 
-import "./assets/css/fonts/linecons/css/linecons.css";
+//import "./assets/css/fonts/linecons/css/linecons.css";
 //import "./assets/css/fonts/fontawesome/css/font-awesome.min.css";
 import "./assets/css/fonts/fontawesome-6.3.0/css/all.min.css";
 import "./assets/css/bootstrap.css";

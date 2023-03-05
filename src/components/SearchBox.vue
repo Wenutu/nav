@@ -79,7 +79,7 @@
       selectCategory(categoryId) {
         this.activeCategory = categoryId
         this.activeSearchEngine = this.activeSearchEngines[0].id
-        this.searchText = ''
+        //this.searchText = ''
       },
       selectSearchEngine(searchEngineId) {
         this.activeSearchEngine = searchEngineId
