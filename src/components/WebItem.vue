@@ -13,8 +13,9 @@
 
           <div class="xe-comment-entry">
             <a class="xe-user-img">
-              <img v-if="web.logo" :src="web.logo" class="lozad img-circle" width="40">
-              <img v-else src="/assets/images/nonetwork.png" class="lozad img-circle" width="40">
+              <img :src="getlogo(web.url)" class="lozad img-circle" width="40">
+              <!--<img v-if="web.logo" :src="web.logo" class="lozad img-circle" width="40">
+              <img v-else src="/assets/images/nonetwork.png" class="lozad img-circle" width="40">-->
             </a>
             <div class="xe-comment">
               <a href="#" class="xe-user-name overflowClip_1">
@@ -36,6 +37,15 @@ export default {
   props: {
     item: Object,
     transName: Function
+  },
+  computed:{
+    getlogo(){
+      return function(url){
+      const api ='https://api.xinac.net/icon/?url='+url
+      //const logo_url=encodeURIComponent(api)
+      return api
+    }
+  }
   },
   methods: {
     openweb(url) {
