@@ -201,6 +201,7 @@
         "name": "实用工具",
         "en_name": "Tools",
         "icon": "fa-solid fa-toolbox",
+        "is_hot":true,
         "children": [
             {
                 "name": "排版编辑",
@@ -229,6 +230,32 @@
                         "logo": "https://www.fotor.com/_hub/_next/static/images/favicon-d4b8dbe4630a2bc790117e61267bbb33.png",
                         "title": "Fotor",
                         "desc": "简单的在线设计"
+                    }
+                ]
+            },
+            {
+                "name":"文件转换",
+                "en_name":"Convert",
+                "web":[
+                    {
+                        "url":"https://www.aconvert.com/cn/",
+                        "logo": "",
+                        "title": "Aconvert",
+                        "desc":"免费转换各种文件"
+                    }
+                ]
+
+            },
+            {
+                "name":"自动化",
+                "en_name":"Automatic",
+                "is_hot":true,
+                "web":[
+                    {
+                        "url":"https://b.jimmylv.cn/",
+                        "logo": "",
+                        "title": "哔哔终结者",
+                        "desc":"一键总结音视频内容"
                     }
                 ]
             },

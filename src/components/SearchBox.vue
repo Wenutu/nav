@@ -51,6 +51,7 @@
         { id: 3, name: '生活', searchEngines: [
           { id: 31, name: '知乎', url: 'https://www.zhihu.com/search?type=content&q=',placeholder:'知乎' },
           { id: 32, name: '微博', url: 'https://s.weibo.com/weibo?q=',placeholder:'微博' },
+          { id: 33, name: '哔哩哔哩',url:'https://search.bilibili.com/all?keyword=',placeholder:'B站'}
         ] }
       ],
         activeCategory: 1,
@@ -69,7 +70,7 @@
       searchUrl() {
         if (this.activeCategory && this.activeSearchEngine) {
           const searchEngine = this.activeSearchEngines.find(se => se.id === this.activeSearchEngine)
-          const query = encodeURIComponent(this.searchText)
+          const query = encodeURIComponent(this.searchText) 
           return `${searchEngine.url}${query}`
         }
         return ''
