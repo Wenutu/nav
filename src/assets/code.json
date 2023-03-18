@@ -188,7 +188,7 @@
   {
     "name": "镜像网站",
     "en_name": "Mirror Web",
-    "icon":"linecons-diamond",
+    "icon":"fa-solid fa-earth-asia",
     "web": [
       {
         "url": "https://mirrors.tuna.tsinghua.edu.cn",
