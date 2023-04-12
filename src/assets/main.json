@@ -137,7 +137,14 @@
                         "logo": "https://decrypt.day/favicon/apple-touch-icon.png",
                         "title": "Decrypt",
                         "desc": "ipa资源站"
+                    },
+                    {
+                        "url": "https://macapp.org.cn/",
+                        "logo": "",
+                        "title": "MacApp",
+                        "desc": "mac app资源站"
                     }
+
                 ]
             }
         ]
@@ -297,19 +304,19 @@
                 "en_name": "Docker Build",
                 "web": [
                     {
-                        "url": "http://docker.wenutu.top",
+                        "url": "https://docker.wenutu.top",
                         "logo": "https://www.portainer.io/hubfs/crane-icon.svg",
                         "title": "Docker Portainer",
                         "desc": "Portainer面板 ——Docker"
                     },
                     {
-                        "url": "http://alist.wenutu.top",
+                        "url": "https://alist.wenutu.top",
                         "logo": "https://alist.nn.ci/logo.svg",
                         "title": "Docker Alist",
                         "desc": "Alist网盘聚合 ——Docker"
                     },
                     {
-                        "url": "http://xiaoya.wenutu.top",
+                        "url": "https://xiaoya.wenutu.top",
                         "logo": "https://alist.nn.ci/logo.svg",
                         "title": "Docker xiaoya",
                         "desc": "xiaoya超集 ——Docker"
