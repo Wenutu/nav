@@ -27,7 +27,29 @@
                         </a>
                     </div>
                 </header>
-                
+
+                <!-- Split button -->
+                <div class="site">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary btn-lg">
+                        <i :class="this.site.icon">&nbsp;&nbsp;{{this.site.name}}&nbsp;&nbsp;</i>
+                        <span class="badge">{{ this.site.count }}</span></button>
+                    <button type="button" class="btn btn-primary btn-lg dropdown-toggle" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li :class="{ active: siteItem.key === site.key }" v-for="siteItem in siteList" :key="siteItem.key">
+                            <a :href="siteItem.nav">
+                                <i :class="siteItem.icon">&nbsp;&nbsp;{{ siteItem.name }}</i>
+                                <span class="badge">{{ siteItem.count }}</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                <!--
                 <ul class="nav nav-pills" role="tablist">
                     <li :class="{ active: siteItem.key === site.key }" v-for="siteItem in siteList" :key="siteItem.key">
                         <a :href="siteItem.nav">
@@ -36,6 +58,7 @@
                         </a>
                     </li>
                 </ul>
+                -->
 
                 <!-- 目录栏 -->
                 <ul id="main-menu" class="main-menu">
@@ -50,8 +73,7 @@
                         <a :href="'#' + transName(menu)" class="smooth">
                             <i :class="menu.icon"></i>
                             <span class="title">{{ transName(menu) }}</span>
-                            <span v-show="menu.is_hot" 
-                                        class="label label-pink pull-right hidden-collapsed">Hot</span>
+                            <span v-show="menu.is_hot" class="label label-pink pull-right hidden-collapsed">Hot</span>
                         </a>
 
                         <ul v-if="menu.children">
@@ -180,7 +202,7 @@ export default {
             },
             {
                 key: "research",
-                name: "研究",
+                name: "科研必备",
                 icon: "fa-solid fa-bookmark",
                 nav: "/research",
                 count: 19
@@ -232,13 +254,24 @@ export default {
 </script>
 
 <style>
-
-
 .nav>li>a {
-    color: #8eb5f8 !important;
+    color: #e7e8e9 !important;
 }
-.nav-pills>li.active>a{
-    color: #fff !important;
+
+.nav>li>a:hover {
+    color: #3c68b2 !important;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:focus {
+    color: #8eb5f8 !important;
     background-color: #2c2e2f;
+}
+
+.site{
+    display: flex;
+  justify-content: center;
+  align-items: center;
 }
 </style>
