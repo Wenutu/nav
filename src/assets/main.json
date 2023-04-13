@@ -336,6 +336,36 @@
                 ]
             },
             {
+                "name": "网站收录",
+                "en_name": "Web Recoed",
+                "web": [
+                    {
+                        "url": "https://search.google.com/search-console/about",
+                        "logo": "",
+                        "title": "Google Search",
+                        "desc": "Google 收录"
+                    },
+                    {
+                        "url": "https://www.bing.com/webmasters",
+                        "logo": "",
+                        "title": "Bing Search",
+                        "desc": "Bing 收录"
+                    },
+                    {
+                        "url": "https://ziyuan.baidu.com/",
+                        "logo": "",
+                        "title": "百度资源搜索平台",
+                        "desc": "百度收录"
+                    },
+                    {
+                        "url": "https://www.web-site-map.com/",
+                        "logo": "",
+                        "title": "Sitemap Generator",
+                        "desc": "免登录站点地图生成"
+                    }
+                ]
+            },
+            {
                 "name": "服务器",
                 "en_name": "Server",
                 "web": [
