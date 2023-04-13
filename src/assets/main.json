@@ -19,13 +19,6 @@
         ]
     },
     {
-        "name": "编程必备",
-        "en_name": "Coding",
-        "icon": "fa-solid fa-laptop-code",
-        "is_hot": true,
-        "call": "/code"
-    },
-    {
         "name": "社区资讯",
         "en_name": "Information",
         "icon": "fa-solid fa-rss",

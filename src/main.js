@@ -20,7 +20,7 @@ Vue.use(VueRouter);
 const routes = [
   { path: "/", component: Index, props: castRouteParams("main") },
   { path: "/code", component: Index, props: castRouteParams("code") },
-  //{ path: "/design", component: Index, props: castRouteParams("design") },
+  { path: "/research", component: Index, props: castRouteParams("research") },
 ];
 function castRouteParams(type) {
   return {

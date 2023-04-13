@@ -1,11 +1,5 @@
 [
   {
-    "name": "返回上级",
-    "en_name": "Back To Main",
-    "icon": "fa-thin fa-arrow-left",
-    "call": "/"
-  },
-  {
     "name": "前端",
     "en_name": "Frontend",
     "icon":"fa-solid fa-language",
