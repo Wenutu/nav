@@ -232,11 +232,13 @@ export default {
 </script>
 
 <style>
-.nav {
-    padding-inline: revert;
-}
+
 
 .nav>li>a {
-    color: #76a0e7;
+    color: #8eb5f8 !important;
+}
+.nav-pills>li.active>a{
+    color: #fff !important;
+    background-color: #2c2e2f;
 }
 </style>
