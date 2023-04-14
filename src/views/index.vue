@@ -5,19 +5,19 @@
                 <header class="logo-env">
                     <!-- logo -->
                     <!--
-                <div class="logo">
-                    <a href="#" class="logo-expanded">
-                    <img src="../assets/images/logo.png" width="100%" alt="" />
-                    </a>
-                    <a href="#" class="logo-collapsed">
-                    <img
-                        src="../assets/images/logo_small.png"
-                        width="40"
-                        alt=""
-                    />
-                    </a>
-                </div>
-                -->
+                    <div class="logo">
+                        <a href="#" class="logo-expanded">
+                        <img src="../assets/images/logo.png" width="100%" alt="" />
+                        </a>
+                        <a href="#" class="logo-collapsed">
+                        <img
+                            src="../assets/images/logo_small.png"
+                            width="40"
+                            alt=""
+                        />
+                        </a>
+                    </div>
+                    -->
                     <div class="mobile-menu-toggle visible-xs">
                         <a href="#" data-toggle="user-info-menu">
                             <i class="linecons-cog"></i>
@@ -26,29 +26,25 @@
                             <i class="fa-bars"></i>
                         </a>
                     </div>
+                    <div class="site">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-primary btn-lg dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                                <i :class="this.site.icon">&nbsp;&nbsp;{{ this.site.name }}&nbsp;&nbsp;</i>
+                                <span class="badge">{{ this.site.count }}</span></button>
+                            <ul class="dropdown-menu">
+                                <li :class="{ active: siteItem.key === site.key }" v-for="siteItem in siteList"
+                                    :key="siteItem.key">
+                                    <a :href="siteItem.nav">
+                                        <i :class="siteItem.icon">&nbsp;&nbsp;{{ siteItem.name }}</i>
+                                        <span class="badge">{{ siteItem.count }}</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </header>
 
-                <!-- Split button -->
-                <div class="site">
-                <div class="btn-group">
-                    <button type="button" class="btn btn-primary btn-lg">
-                        <i :class="this.site.icon">&nbsp;&nbsp;{{this.site.name}}&nbsp;&nbsp;</i>
-                        <span class="badge">{{ this.site.count }}</span></button>
-                    <button type="button" class="btn btn-primary btn-lg dropdown-toggle" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        <span class="caret"></span>
-                        <span class="sr-only">Toggle Dropdown</span>
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li :class="{ active: siteItem.key === site.key }" v-for="siteItem in siteList" :key="siteItem.key">
-                            <a :href="siteItem.nav">
-                                <i :class="siteItem.icon">&nbsp;&nbsp;{{ siteItem.name }}</i>
-                                <span class="badge">{{ siteItem.count }}</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
                 <!--
                 <ul class="nav nav-pills" role="tablist">
                     <li :class="{ active: siteItem.key === site.key }" v-for="siteItem in siteList" :key="siteItem.key">
@@ -59,6 +55,7 @@
                     </li>
                 </ul>
                 -->
+                
 
                 <!-- 目录栏 -->
                 <ul id="main-menu" class="main-menu">
@@ -93,9 +90,11 @@
         <div class="main-content">
             <nav class="navbar user-info-navbar" role="navigation">
                 <ul class="user-info-menu left-links list-inline list-unstyled">
+                    <!--
                     <li class="hidden-sm hidden-xs">
                         <a href="#" data-toggle="sidebar"><i class="fa-bars"></i></a>
                     </li>
+                    -->
                     <li class="dropdown hover-line language-switcher">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <img :src="lang.flag" /> {{ lang.name }}
@@ -254,24 +253,10 @@ export default {
 </script>
 
 <style>
-.nav>li>a {
-    color: #e7e8e9 !important;
-}
 
-.nav>li>a:hover {
-    color: #3c68b2 !important;
-}
-
-.nav-pills>li.active>a,
-.nav-pills>li.active>a:hover,
-.nav-pills>li.active>a:focus {
-    color: #8eb5f8 !important;
-    background-color: #2c2e2f;
-}
-
-.site{
-    display: flex;
-  justify-content: center;
-  align-items: center;
+.site {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 </style>
