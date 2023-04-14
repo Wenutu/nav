@@ -26,23 +26,7 @@
                             <i class="fa-bars"></i>
                         </a>
                     </div>
-                    <div class="site">
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-primary btn-lg dropdown-toggle" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                                <i :class="this.site.icon">&nbsp;&nbsp;{{ this.site.name }}&nbsp;&nbsp;</i>
-                                <span class="badge">{{ this.site.count }}</span></button>
-                            <ul class="dropdown-menu">
-                                <li :class="{ active: siteItem.key === site.key }" v-for="siteItem in siteList"
-                                    :key="siteItem.key">
-                                    <a :href="siteItem.nav">
-                                        <i :class="siteItem.icon">&nbsp;&nbsp;{{ siteItem.name }}</i>
-                                        <span class="badge">{{ siteItem.count }}</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                    
                 </header>
 
                 <!--
@@ -55,10 +39,28 @@
                     </li>
                 </ul>
                 -->
+                <div class="site">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i :class="this.site.icon">&nbsp;&nbsp;{{ this.site.name }}&nbsp;&nbsp;</i>
+                            <span class="badge">{{ this.site.count }}</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li :class="{ active: siteItem.key === site.key }" v-for="siteItem in siteList"
+                                :key="siteItem.key">
+                                <a :href="siteItem.nav">
+                                    <i :class="siteItem.icon">&nbsp;&nbsp;{{ siteItem.name }}</i>
+                                    <span class="badge">{{ siteItem.count }}</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
                 
 
                 <!-- 目录栏 -->
                 <ul id="main-menu" class="main-menu">
+                   
                     <li v-for="(menu, idx) in items" :key="idx">
                         <!-- 二级导航路由 json 的 call-->
                         <!--
@@ -255,8 +257,8 @@ export default {
 <style>
 
 .site {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
+    display: flex ;
+    justify-content: center;
+    align-items: center ;
 }
 </style>
