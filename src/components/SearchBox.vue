@@ -52,7 +52,12 @@
           { id: 31, name: '知乎', url: 'https://www.zhihu.com/search?type=content',placeholder:'知乎',n:'q' },
           { id: 32, name: '微博', url: 'https://s.weibo.com/weibo',placeholder:'微博' ,n:'q'},
           { id: 33, name: '哔哩哔哩',url:'https://search.bilibili.com/all',placeholder:'B站',n:'keyword'}
-        ] }
+        ] },
+        {
+          id: 4,name: '科研',searchEngines:[
+            { id: 41,name: '谷歌学术',url: 'https://scholar.google.com.hk/scholar',placeholder:'谷歌学术',n:'q'}
+          ]
+        }
       ],
         activeCategory: 1,
         activeSearchEngine: 11,
