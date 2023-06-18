@@ -59,7 +59,7 @@
     "name": "AI助手",
     "en_name": "AI Assistant",
     "is_hot": true,
-    "icon": "",
+    "icon": "fa-solid fa-message-bot",
     "children": [
       {
         "name": "GPT",

@@ -192,21 +192,21 @@ export default {
                 name: "主导航",
                 icon: "fa-solid fa-house",
                 nav: "/",
-                count: 38
+                count: 43
             },
             {
                 key: "code",
                 name: "编程必备",
                 icon: "fa-solid fa-code",
                 nav: "/code",
-                count: 19
+                count: 20
             },
             {
                 key: "research",
                 name: "科研必备",
                 icon: "fa-solid fa-bookmark",
                 nav: "/research",
-                count: 19
+                count: 6
             },
 
             ]
