@@ -1,61 +1,79 @@
 [
-    {
-      "name": "前端",
-      "en_name": "Frontend",
-      "icon":"fa-solid fa-language",
-      "children":[
-        {
-          "name":"框架",
-          "en_name":"Framework",
-          "web": [
-            {
-              "url": "https://cn.vuejs.org/",
-              "logo": "https://vuejs.org/images/logo.png",
-              "title": "Vue",
-              "desc": "易学易用，性能出色，适用场景丰富的 Web 前端框架"
-            }
-          ]
-        },
-        {
-          "name":"工程化",
-          "en_name":"Project",
-          "web":[
-            {
-              "url":"https://webpack.docschina.org/",
-              "logo":"https://webpack.docschina.org/icon_192x192.png",
-              "title":"Webpack",
-              "desc":"静态模块打包工具"
-            }
-          ]
-        },
-        {
-          "name":"设计",
-          "en_name":"Design",
-          "web":[
-            {
-              "url":"https://getbootstrap.com/",
-              "logo":"https://getbootstrap.com/docs/5.3/assets/img/favicons/favicon-32x32.png",
-              "title":"Bootstrap",
-              "desc":"使用 Bootstrap 构建快速、响应迅速的网站"
-            }
-          ]
-        }
-      ]
-     
-    },
-    {
-      "name":"算法",
-      "en_name":"Algorithms",
-      "icon":"fa-solid fa-cube",
-      "is_hot": true,
-      "web":[
-        {
-          "url":"https://oi-wiki.org/",
-          "logo":"/assets/images/logos/code/oi-wiki.png",
-          "title":"Oi wiki",
-          "desc":"OI Wiki 致力于成为一个免费开放且持续更新的 编程竞赛 (competitive programming) 知识整合站点"
-        }
-      ]
-  
-    }
+  {
+    "name": "文献检索",
+    "en_name": "Paper Search",
+    "is_hot": true,
+    "web": [
+      {
+        "url": "https://scholar.google.com",
+        "logo": "",
+        "title": "Google Scholar",
+        "desc": "谷歌学术搜索"
+      },
+      {
+        "url": "https://arxiv.org/",
+        "logo": "",
+        "title": "Arxiv",
+        "desc": "Arxiv"
+      }
+    ]
+  },
+  {
+    "name": "搜索引擎",
+    "en_name": "Search Engine",
+    "icon": "fa-solid fa-search",
+    "web": [
+      {
+        "url": "https://www.bookgoldmine.com/",
+        "logo": "",
+        "title": "Book Gold Mine",
+        "desc": "Book Gold Mine可免费提供大量优质的电子书，演讲稿，笔记和其他类型的文档"
+      }
+    ]
+  },
+  {
+    "name": "论文写作",
+    "en_name": "Paper Writing",
+    "icon": "fa-solid fa-language",
+    "children": [
+      {
+        "name": "期刊模板",
+        "en_name": "Journal Template",
+        "web": [
+          {
+            "url": "https://www.overleaf.com/",
+            "logo": "",
+            "title": "Overleaf",
+            "desc": "期刊在线Latex编辑器"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "数据库",
+    "en_name": "Database",
+    "icon": "fa-solid fa-cube",
+    "web": [
+      {
+        "url": "https://w.wanfangdata.com.cn/",
+        "logo": "",
+        "title": "万方数据库",
+        "desc": "万方数据库"
+      }
+    ]
+  },
+  {
+    "name": "数据来源平台",
+    "en_name": "Data Source Platform",
+    "icon": "fa-solid fa-language",
+    "web":[
+      {
+        "url": "https://www.dydata.io/",
+        "logo": "",
+        "title": "镝数聚",
+        "desc": "数据平台"
+      }
+    ]
+  }
 ]

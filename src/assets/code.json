@@ -2,11 +2,11 @@
   {
     "name": "前端",
     "en_name": "Frontend",
-    "icon":"fa-solid fa-language",
-    "children":[
+    "icon": "fa-solid fa-language",
+    "children": [
       {
-        "name":"框架",
-        "en_name":"Framework",
+        "name": "框架",
+        "en_name": "Framework",
         "web": [
           {
             "url": "https://cn.vuejs.org/",
@@ -15,108 +15,112 @@
             "desc": "易学易用，性能出色，适用场景丰富的 Web 前端框架"
           },
           {
-            "url":"https://router.vuejs.org/",
-            "logo":"https://router.vuejs.org/logo.svg",
-            "title":"Vue Router",
-            "desc":"Expressive, configurable and convenient routing for Vue.js"
+            "url": "https://router.vuejs.org/",
+            "logo": "https://router.vuejs.org/logo.svg",
+            "title": "Vue Router",
+            "desc": "Expressive, configurable and convenient routing for Vue.js"
           },
           {
-            "url":"https://reactjs.org/",
-            "logo":"https://reactjs.org/logo-180x180.png",
-            "title":"React",
-            "desc":"用于构建用户界面的 JavaScript 库"
+            "url": "https://reactjs.org/",
+            "logo": "https://reactjs.org/logo-180x180.png",
+            "title": "React",
+            "desc": "用于构建用户界面的 JavaScript 库"
           },
           {
-            "url":"https://angular.io/",
-            "logo":"https://angular.io/assets/images/favicons/favicon-32x32.png",
-            "title":"Angular",
-            "desc":"现代 Web 开发平台"
+            "url": "https://angular.io/",
+            "logo": "https://angular.io/assets/images/favicons/favicon-32x32.png",
+            "title": "Angular",
+            "desc": "现代 Web 开发平台"
+          },
+          {
+            "url": "https://uniapp.dcloud.net.cn/tutorial/",
+            "logo": "",
+            "title": "Uniapp",
+            "desc": "移动端框架"
           }
         ]
       },
       {
-        "name":"工程化",
-        "en_name":"Project",
-        "web":[
+        "name": "工程化",
+        "en_name": "Project",
+        "web": [
           {
-            "url":"https://webpack.docschina.org/",
-            "logo":"https://webpack.docschina.org/icon_192x192.png",
-            "title":"Webpack",
-            "desc":"静态模块打包工具"
+            "url": "https://webpack.docschina.org/",
+            "logo": "https://webpack.docschina.org/icon_192x192.png",
+            "title": "Webpack",
+            "desc": "静态模块打包工具"
           },
           {
-            "url":"https://vitejs.dev/",
-            "logo":"https://vitejs.dev/logo.svg",
-            "title":"Vite",
-            "desc":"Next Generation Frontend Tooling"
+            "url": "https://vitejs.dev/",
+            "logo": "https://vitejs.dev/logo.svg",
+            "title": "Vite",
+            "desc": "Next Generation Frontend Tooling"
           }
         ]
       },
       {
-        "name":"设计",
-        "en_name":"Design",
-        "web":[
+        "name": "设计",
+        "en_name": "Design",
+        "web": [
           {
-            "url":"https://getbootstrap.com/",
-            "logo":"https://getbootstrap.com/docs/5.3/assets/img/favicons/favicon-32x32.png",
-            "title":"Bootstrap",
-            "desc":"使用 Bootstrap 构建快速、响应迅速的网站"
-          }
-        ]
-      }
-    ]
-   
-  },
-  {
-    "name":"后端",
-    "en_name":"Backend",
-    "icon":"fa-solid fa-terminal",
-    "children":[
-      {
-        "name":"c/c++",
-        "en_name":"c/c++",
-        "web":[
-          {
-            "url":"https://cplusplus.com/",
-            "logo":"",
-            "title":"cplusplus",
-            "desc":""
-          }
-        ]
-      },
-      {
-        "name":"python",
-        "en_name":"python",
-        "web":[
-          {
-            "url":"https://fastapi.tiangolo.com/",
-            "logo":"https://fastapi.tiangolo.com/img/favicon.png",
-            "title":"Fastapi",
-            "desc":"现代、快速（高性能）的 Web 框架"
+            "url": "https://getbootstrap.com/",
+            "logo": "https://getbootstrap.com/docs/5.3/assets/img/favicons/favicon-32x32.png",
+            "title": "Bootstrap",
+            "desc": "使用 Bootstrap 构建快速、响应迅速的网站"
           }
         ]
       }
     ]
   },
   {
-    "name":"算法",
-    "en_name":"Algorithms",
-    "icon":"fa-solid fa-cube",
+    "name": "后端",
+    "en_name": "Backend",
+    "icon": "fa-solid fa-terminal",
+    "children": [
+      {
+        "name": "c/c++",
+        "en_name": "c/c++",
+        "web": [
+          {
+            "url": "https://cplusplus.com/",
+            "logo": "",
+            "title": "cplusplus",
+            "desc": ""
+          }
+        ]
+      },
+      {
+        "name": "python",
+        "en_name": "python",
+        "web": [
+          {
+            "url": "https://fastapi.tiangolo.com/",
+            "logo": "https://fastapi.tiangolo.com/img/favicon.png",
+            "title": "Fastapi",
+            "desc": "现代、快速（高性能）的 Web 框架"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "算法",
+    "en_name": "Algorithms",
+    "icon": "fa-solid fa-cube",
     "is_hot": true,
-    "web":[
+    "web": [
       {
-        "url":"https://oi-wiki.org/",
-        "logo":"/assets/images/logos/code/oi-wiki.png",
-        "title":"Oi wiki",
-        "desc":"OI Wiki 致力于成为一个免费开放且持续更新的 编程竞赛 (competitive programming) 知识整合站点"
+        "url": "https://oi-wiki.org/",
+        "logo": "/assets/images/logos/code/oi-wiki.png",
+        "title": "Oi wiki",
+        "desc": "OI Wiki 致力于成为一个免费开放且持续更新的 编程竞赛 (competitive programming) 知识整合站点"
       }
     ]
-
   },
   {
     "name": "可视化网站",
     "en_name": "Visualization Web",
-    "icon":"fa-solid fa-eye",
+    "icon": "fa-solid fa-eye",
     "is_hot": true,
     "web": [
       {
@@ -132,10 +136,10 @@
         "desc": "算法可视化"
       },
       {
-        "url":"https://visualgo.net/zh",
-        "logo":"https://visualgo.net/img/favicon.png",
-        "title":"visualgo",
-        "desc":"算法可视化"
+        "url": "https://visualgo.net/zh",
+        "logo": "https://visualgo.net/img/favicon.png",
+        "title": "visualgo",
+        "desc": "算法可视化"
       }
     ]
   },
@@ -143,7 +147,7 @@
     "name": "刷题",
     "en_name": "Oj",
     "is_hot": true,
-    "icon":"fa-solid fa-code",
+    "icon": "fa-solid fa-code",
     "web": [
       {
         "url": "https://leetcode.cn/",
@@ -152,21 +156,21 @@
         "desc": "刷题～"
       },
       {
-        "url":"https://codeforces.com/",
-        "logo":"https://codeforces.org/s/0/apple-icon-60x60.png",
-        "title":"Codeforces",
-        "desc":"刷题和测试"
+        "url": "https://codeforces.com/",
+        "logo": "https://codeforces.org/s/0/apple-icon-60x60.png",
+        "title": "Codeforces",
+        "desc": "刷题和测试"
       }
     ]
   },
   {
     "name": "开源项目",
     "en_name": "Open Source Project",
-    "icon":"fa-solid fa-diagram-project",
-    "children":[
+    "icon": "fa-solid fa-diagram-project",
+    "children": [
       {
-        "name":"编程书籍",
-        "en_name":"Programming Books",
+        "name": "编程书籍",
+        "en_name": "Programming Books",
         "web": [
           {
             "url": "https://github.com/justjavac/free-programming-books-zh_CN",
@@ -175,14 +179,13 @@
             "desc": "免费的计算机编程类中文书籍"
           }
         ]
-        
       }
     ]
   },
   {
     "name": "镜像网站",
     "en_name": "Mirror Web",
-    "icon":"fa-solid fa-earth-asia",
+    "icon": "fa-solid fa-earth-asia",
     "web": [
       {
         "url": "https://mirrors.tuna.tsinghua.edu.cn",
@@ -191,16 +194,16 @@
         "desc": "清华大学开源软件镜像站"
       },
       {
-        "url":"https://pkgs.org/",
-        "logo":"",
-        "title":"Pkgs",
-        "desc":"最大的linux和unix操作系统存储库和各种语言软件包"
+        "url": "https://pkgs.org/",
+        "logo": "",
+        "title": "Pkgs",
+        "desc": "最大的linux和unix操作系统存储库和各种语言软件包"
       },
       {
-        "url":"http://cdimage.ubuntu.com/ ",
-        "logo":"/assets/images/logos/code/ubuntu.png",
-        "title":"ubuntu镜像",
-        "desc":"所有版本的ubuntu这里都有"
+        "url": "http://cdimage.ubuntu.com/ ",
+        "logo": "/assets/images/logos/code/ubuntu.png",
+        "title": "ubuntu镜像",
+        "desc": "所有版本的ubuntu这里都有"
       }
     ]
   }

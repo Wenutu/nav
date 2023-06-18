@@ -1,381 +1,440 @@
 [
-    {
-        "name": "常用推荐",
-        "en_name": "Recommended",
-        "icon": "fa-solid fa-star",
+  {
+    "name": "常用推荐",
+    "en_name": "Recommended",
+    "icon": "fa-solid fa-star",
+    "web": [
+      {
+        "url": "https://wenutu.top",
+        "logo": "/assets/images/logos/main/wenutu.png",
+        "title": "站长主页",
+        "desc": "站长主页"
+      },
+      {
+        "url": "https://console.cloud.tencent.com/",
+        "logo": "https://cloudcache.tencent-cloud.com/open_proj/proj_qcloud_v2/gateway/shareicons/cloud.png",
+        "title": "腾讯云",
+        "desc": "腾讯云控制台"
+      }
+    ]
+  },
+  {
+    "name": "社区资讯",
+    "en_name": "Information",
+    "icon": "fa-solid fa-rss",
+    "web": [
+      {
+        "url": "https://stackoverflow.com/",
+        "logo": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded",
+        "title": "Stack Overflow",
+        "desc": "友好的程序员交流社区"
+      },
+      {
+        "url": "https://www.githubs.cn/",
+        "logo": "/assets/images/logos/main/github.png",
+        "title": "Github中文社区",
+        "desc": "Github项目推荐"
+      },
+      {
+        "url": "https://discord.com/",
+        "logo": "/assets/images/logos/main/discord.png",
+        "title": "Discord",
+        "desc": "游戏、艺术社区"
+      },
+      {
+        "url": "https://www.notion.so/",
+        "logo": "/assets/images/logos/main/notion.png",
+        "title": "Notion",
+        "desc": "笔记"
+      },
+      {
+        "url": "https://www.githubs.cn/",
+        "logo": "",
+        "title": "Github中文社区",
+        "desc": "Github中文社区"
+      }
+    ]
+  },
+  {
+    "name": "AI助手",
+    "en_name": "AI Assistant",
+    "is_hot": true,
+    "icon": "",
+    "children": [
+      {
+        "name": "GPT",
+        "en_name": "GPT",
         "web": [
-            {
-                "url": "https://wenutu.top",
-                "logo": "/assets/images/logos/main/wenutu.png",
-                "title": "站长主页",
-                "desc": "站长主页"
-            },
-            {
-                "url": "https://console.cloud.tencent.com/",
-                "logo": "https://cloudcache.tencent-cloud.com/open_proj/proj_qcloud_v2/gateway/shareicons/cloud.png",
-                "title": "腾讯云",
-                "desc": "腾讯云控制台"
-            }
+          {
+            "url": "https://ora.ai",
+            "logo": "",
+            "title": "Ora",
+            "desc": "Free GPT 免费gpt-3.5"
+          }
         ]
-    },
-    {
-        "name": "社区资讯",
-        "en_name": "Information",
-        "icon": "fa-solid fa-rss",
+      },
+      {
+        "name": "视频类",
+        "en_name": "Video",
         "web": [
-            {
-                "url": "https://stackoverflow.com/",
-                "logo": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded",
-                "title": "Stack Overflow",
-                "desc": "友好的程序员交流社区"
-            },
-            {
-                "url": "https://www.githubs.cn/",
-                "logo": "/assets/images/logos/main/github.png",
-                "title": "Github中文社区",
-                "desc": "Github项目推荐"
-            },
-            {
-                "url": "https://discord.com/",
-                "logo": "/assets/images/logos/main/discord.png",
-                "title": "Discord",
-                "desc": "游戏、艺术社区"
-            },
-            {
-                "url": "https://www.notion.so/",
-                "logo": "/assets/images/logos/main/notion.png",
-                "title": "Notion",
-                "desc": "笔记"
-            }
+          {
+            "url": "https://b.jimmylv.cn/",
+            "logo": "",
+            "title": "哔哔终结者",
+            "desc": "一键总结音视频内容"
+          }
         ]
-    },
-    {
-        "name": "素材资源",
-        "en_name": "Resources",
-        "icon": "fa-solid fa-box-archive",
+      }
+    ]
+  },
+  {
+    "name": "素材资源",
+    "en_name": "Resources",
+    "icon": "fa-solid fa-box-archive",
+    "is_hot": true,
+    "children": [
+      {
+        "name": "图标素材",
+        "en_name": "Icon",
+        "web": [
+          {
+            "url": "https://www.iconfinder.com",
+            "logo": "/assets/images/logos/main/Iconfinder.png",
+            "title": "Iconfinder",
+            "desc": "2,100,000+ free and premium vector icons"
+          },
+          {
+            "url": "http://www.iconfont.cn",
+            "logo": "/assets/images/logos/main/iconfont.png",
+            "title": "iconfont",
+            "desc": "阿里巴巴矢量图标库"
+          },
+          {
+            "url": "https://fontawesome.com/versions",
+            "logo": "/assets/images/logos/main/fa.png",
+            "title": "Font Awesome",
+            "desc": "前端常用font"
+          }
+        ]
+      },
+      {
+        "name": "摄影图库",
+        "en_name": "Free Photos",
+        "web": [
+          {
+            "url": " https://pixabay.com",
+            "logo": "/assets/images/logos/main/pixabay.png",
+            "title": "Pixabay",
+            "desc": "免费正版高清图片素材库，拥有超过2.7百万张优质图片和视频素材，让你轻松应对各种设计场景"
+          },
+          {
+            "url": "https://hdqwalls.com/",
+            "logo": "",
+            "title": "hdqwalls",
+            "desc": "免费高清壁纸，多尺寸"
+          }
+        ]
+      },
+      {
+        "name": "PPT资源",
+        "en_name": "PPT",
+        "web": [
+          {
+            "url": "https://www.officeplus.cn/PPT/template/",
+            "logo": "/assets/images/logos/main/officeplus.png",
+            "title": "OfficePLUS",
+            "desc": "OfficePLUS，微软Office官方在线模板网站！"
+          },
+          {
+            "url": "http://www.ypppt.com/",
+            "logo": "/assets/images/logos/main/ypppt.png",
+            "title": "优品PPT",
+            "desc": "高质量的模版，而且还有PPT图表，PPT背景图等资源"
+          }
+        ]
+      },
+      {
+        "name": "电子书资源",
+        "en_name": "Ebook",
+        "web": [
+          {
+            "url": "https://zlibrary.to",
+            "logo": "/assets/images/logos/main/zlibrary.png",
+            "title": "z-library",
+            "desc": "电子书合集"
+          }
+        ]
+      },
+      {
+        "name": "软件资源",
+        "en_name": "Software",
+        "web": [
+          {
+            "url": "https://decrypt.day/",
+            "logo": "https://decrypt.day/favicon/apple-touch-icon.png",
+            "title": "Decrypt",
+            "desc": "ipa资源站"
+          },
+          {
+            "url": "https://macapp.org.cn/",
+            "logo": "",
+            "title": "MacApp",
+            "desc": "mac app资源站"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "网盘邮箱",
+    "en_name": "Driver Email",
+    "icon": "fa-solid fa-school",
+    "children": [
+      {
+        "name": "网盘",
+        "en_name": "Driver",
+        "web": [
+          {
+            "url": "https://www.aliyundrive.com/sign/in",
+            "logo": "/assets/images/logos/main/aliyun.png",
+            "title": "阿里云盘",
+            "desc": "不限速的网盘"
+          },
+          {
+            "url": "https://pan.baidu.com/",
+            "logo": "/assets/images/logos/main/baidudisk.png",
+            "title": "百度云盘",
+            "desc": "百度网盘"
+          },
+          {
+            "url": "https://drive.google.com/",
+            "logo": "https://ssl.gstatic.com/images/branding/product/2x/drive_2020q4_48dp.png",
+            "title": "Google Driver",
+            "desc": "谷歌云盘"
+          }
+        ]
+      },
+      {
+        "name": "邮箱",
+        "en_name": "Email",
+        "web": [
+          {
+            "url": "https://outlook.live.com/",
+            "logo": "/assets/images/logos/main/outlook.png",
+            "title": "Outlook",
+            "desc": "Outlook邮箱网页版"
+          },
+          {
+            "url": "https://mail.google.com/",
+            "logo": "/assets/images/logos/main/gmail.png",
+            "title": "Gmail",
+            "desc": "Gmail Online"
+          },
+          {
+            "url": "https://wx.mail.qq.com",
+            "logo": "https://mail.qq.com/zh_CN/htmledition/images/favicon/qqmail_favicon_32h.png",
+            "title": "QQ 邮箱",
+            "desc": "QQ 邮箱网页版"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "实用工具",
+    "en_name": "Tools",
+    "icon": "fa-solid fa-toolbox",
+    "is_hot": true,
+    "children": [
+      {
+        "name": "排版编辑",
+        "en_name": "Typesetting",
+        "web": [
+          {
+            "url": "https://www.latexlive.com/",
+            "logo": "/assets/images/logos/main/latex.png",
+            "title": "Latex在线编辑器",
+            "desc": "在线等latex编辑器"
+          },
+          {
+            "url": "https://www.mdeditor.tw/",
+            "logo": "/assets/images/logos/main/mdeditor.png",
+            "title": "MdEditor",
+            "desc": "Markdown语法和编辑器"
+          }
+        ]
+      },
+      {
+        "name": "图片编辑",
+        "en_name": "Photo",
+        "web": [
+          {
+            "url": "https://www.fotor.com/",
+            "logo": "https://www.fotor.com/_hub/_next/static/images/favicon-d4b8dbe4630a2bc790117e61267bbb33.png",
+            "title": "Fotor",
+            "desc": "简单的在线设计"
+          }
+        ]
+      },
+      {
+        "name": "文件转换",
+        "en_name": "Convert",
+        "web": [
+          {
+            "url": "https://www.aconvert.com/cn/",
+            "logo": "",
+            "title": "Aconvert",
+            "desc": "免费转换各种文件"
+          }
+        ]
+      },
+      {
+        "name": "VPN",
+        "en_name": "VPN",
         "is_hot": true,
-        "children": [
-            {
-                "name": "图标素材",
-                "en_name": "Icon",
-                "web": [
-                    {
-                        "url": "https://www.iconfinder.com",
-                        "logo": "/assets/images/logos/main/Iconfinder.png",
-                        "title": "Iconfinder",
-                        "desc": "2,100,000+ free and premium vector icons"
-                    },
-                    {
-                        "url": "http://www.iconfont.cn",
-                        "logo": "/assets/images/logos/main/iconfont.png",
-                        "title": "iconfont",
-                        "desc": "阿里巴巴矢量图标库"
-                    },
-                    {
-                        "url": "https://fontawesome.com/versions",
-                        "logo": "/assets/images/logos/main/fa.png",
-                        "title": "Font Awesome",
-                        "desc": "前端常用font"
-                    }
-                ]
-            },
-            {
-                "name": "摄影图库",
-                "en_name": "Free Photos",
-                "web": [
-                    {
-                        "url": " https://pixabay.com",
-                        "logo": "/assets/images/logos/main/pixabay.png",
-                        "title": "Pixabay",
-                        "desc": "免费正版高清图片素材库，拥有超过2.7百万张优质图片和视频素材，让你轻松应对各种设计场景"
-                    }
-                ]
-            },
-            {
-                "name": "PPT资源",
-                "en_name": "PPT",
-                "web": [
-                    {
-                        "url": "https://www.officeplus.cn/PPT/template/",
-                        "logo": "/assets/images/logos/main/officeplus.png",
-                        "title": "OfficePLUS",
-                        "desc": "OfficePLUS，微软Office官方在线模板网站！"
-                    },
-                    {
-                        "url": "http://www.ypppt.com/",
-                        "logo": "/assets/images/logos/main/ypppt.png",
-                        "title": "优品PPT",
-                        "desc": "高质量的模版，而且还有PPT图表，PPT背景图等资源"
-                    }
-                ]
-            },
-            {
-                "name": "电子书资源",
-                "en_name": "Ebook",
-                "web": [
-                    {
-                        "url": "https://zlibrary.to",
-                        "logo": "/assets/images/logos/main/zlibrary.png",
-                        "title": "z-library",
-                        "desc": "电子书合集"
-                    }
-                ]
-            },
-            {
-                "name": "软件资源",
-                "en_name": "Software",
-                "web": [
-                    {
-                        "url": "https://decrypt.day/",
-                        "logo": "https://decrypt.day/favicon/apple-touch-icon.png",
-                        "title": "Decrypt",
-                        "desc": "ipa资源站"
-                    },
-                    {
-                        "url": "https://macapp.org.cn/",
-                        "logo": "",
-                        "title": "MacApp",
-                        "desc": "mac app资源站"
-                    }
-
-                ]
-            }
-        ]
-    },
-    {
-        "name": "网盘邮箱",
-        "en_name": "Driver Email",
-        "icon": "fa-solid fa-school",
-        "children": [
-            {
-                "name": "网盘",
-                "en_name": "Driver",
-                "web": [
-                    {
-                        "url": "https://www.aliyundrive.com/sign/in",
-                        "logo": "/assets/images/logos/main/aliyun.png",
-                        "title": "阿里云盘",
-                        "desc": "不限速的网盘"
-                    },
-                    {
-                        "url": "https://pan.baidu.com/",
-                        "logo": "/assets/images/logos/main/baidudisk.png",
-                        "title": "百度云盘",
-                        "desc": "百度网盘"
-                    },
-                    {
-                        "url": "https://drive.google.com/",
-                        "logo": "https://ssl.gstatic.com/images/branding/product/2x/drive_2020q4_48dp.png",
-                        "title": "Google Driver",
-                        "desc": "谷歌云盘"
-                    }
-                ]
-            },
-            {
-                "name": "邮箱",
-                "en_name": "Email",
-                "web": [
-                    {
-                        "url": "https://outlook.live.com/",
-                        "logo": "/assets/images/logos/main/outlook.png",
-                        "title": "Outlook",
-                        "desc": "Outlook邮箱网页版"
-                    },
-                    {
-                        "url": "https://mail.google.com/",
-                        "logo": "/assets/images/logos/main/gmail.png",
-                        "title": "Gmail",
-                        "desc": "Gmail Online"
-                    },
-                    {
-                        "url": "https://wx.mail.qq.com",
-                        "logo": "https://mail.qq.com/zh_CN/htmledition/images/favicon/qqmail_favicon_32h.png",
-                        "title": "QQ 邮箱",
-                        "desc": "QQ 邮箱网页版"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "实用工具",
-        "en_name": "Tools",
-        "icon": "fa-solid fa-toolbox",
-        "is_hot":true,
-        "children": [
-            {
-                "name": "排版编辑",
-                "en_name": "Typesetting",
-                "web": [
-                    {
-                        "url": "https://www.latexlive.com/",
-                        "logo": "/assets/images/logos/main/latex.png",
-                        "title": "Latex在线编辑器",
-                        "desc": "在线等latex编辑器"
-                    },
-                    {
-                        "url": "https://www.mdeditor.tw/",
-                        "logo": "/assets/images/logos/main/mdeditor.png",
-                        "title": "MdEditor",
-                        "desc": "Markdown语法和编辑器"
-                    }
-                ]
-            },
-            {
-                "name": "图片编辑",
-                "en_name": "Photo",
-                "web": [
-                    {
-                        "url": "https://www.fotor.com/",
-                        "logo": "https://www.fotor.com/_hub/_next/static/images/favicon-d4b8dbe4630a2bc790117e61267bbb33.png",
-                        "title": "Fotor",
-                        "desc": "简单的在线设计"
-                    }
-                ]
-            },
-            {
-                "name":"文件转换",
-                "en_name":"Convert",
-                "web":[
-                    {
-                        "url":"https://www.aconvert.com/cn/",
-                        "logo": "",
-                        "title": "Aconvert",
-                        "desc":"免费转换各种文件"
-                    }
-                ]
-
-            },
-            {
-                "name":"自动化",
-                "en_name":"Automatic",
-                "is_hot":true,
-                "web":[
-                    {
-                        "url":"https://b.jimmylv.cn/",
-                        "logo": "",
-                        "title": "哔哔终结者",
-                        "desc":"一键总结音视频内容"
-                    }
-                ]
-            },
-            {
-                "name": "VPN",
-                "en_name": "VPN",
-                "is_hot": true,
-                "web": [
-                    {
-                        "url": "https://w1.v2free.top/auth/register?code=9OxL",
-                        "logo": "https://w1.v2free.top/images/authlogo.jpg",
-                        "title": "V2free",
-                        "desc": "多终端，签到领流量，免费也可以很强大"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "博客友链",
-        "en_name": "Blog",
-        "icon": "fa-solid fa-blog",
         "web": [
-            {
-                "url": "https://blog.wenutu.top",
-                "logo": "/assets/images/logos/main/wenutu.png",
-                "title": "站长博客",
-                "desc": "站长个人博客，仍在不断完善中"
-            }
+          {
+            "url": "https://w1.v2free.top/auth/register?code=9OxL",
+            "logo": "https://w1.v2free.top/images/authlogo.jpg",
+            "title": "V2free",
+            "desc": "多终端，签到领流量，免费也可以很强大"
+          }
         ]
-    },
-    {
-        "name": "站长自用",
-        "en_name": "Private Use",
-        "icon": "fa-solid fa-user",
-        "children": [
-            {
-                "name": "Docker Build",
-                "en_name": "Docker Build",
-                "web": [
-                    {
-                        "url": "https://docker.wenutu.top",
-                        "logo": "https://www.portainer.io/hubfs/crane-icon.svg",
-                        "title": "Docker Portainer",
-                        "desc": "Portainer面板 ——Docker"
-                    },
-                    {
-                        "url": "https://alist.wenutu.top",
-                        "logo": "https://alist.nn.ci/logo.svg",
-                        "title": "Docker Alist",
-                        "desc": "Alist网盘聚合 ——Docker"
-                    },
-                    {
-                        "url": "https://xiaoya.wenutu.top",
-                        "logo": "https://alist.nn.ci/logo.svg",
-                        "title": "Docker xiaoya",
-                        "desc": "xiaoya超集 ——Docker"
-                    }
-                ]
-            },
-            {
-                "name": "网站运营",
-                "en_name": "Web Operations",
-                "web": [
-                    {
-                        "url": "https://umami.wenutu.top/",
-                        "logo": "https://umami.is/favicon-32x32.png",
-                        "title": "Docker Umami",
-                        "desc": "站点统计"
-                    }
-                ]
-            },
-            {
-                "name": "网站收录",
-                "en_name": "Web Recoed",
-                "web": [
-                    {
-                        "url": "https://search.google.com/search-console/about",
-                        "logo": "",
-                        "title": "Google Search",
-                        "desc": "Google 收录"
-                    },
-                    {
-                        "url": "https://www.bing.com/webmasters",
-                        "logo": "",
-                        "title": "Bing Search",
-                        "desc": "Bing 收录"
-                    },
-                    {
-                        "url": "https://ziyuan.baidu.com/",
-                        "logo": "",
-                        "title": "百度资源搜索平台",
-                        "desc": "百度收录"
-                    },
-                    {
-                        "url": "https://www.web-site-map.com/",
-                        "logo": "",
-                        "title": "Sitemap Generator",
-                        "desc": "免登录站点地图生成"
-                    }
-                ]
-            },
-            {
-                "name": "服务器",
-                "en_name": "Server",
-                "web": [
-                    {
-                        "url": "https://console.cloud.tencent.com/",
-                        "logo": "https://cloudcache.tencent-cloud.com/open_proj/proj_qcloud_v2/gateway/shareicons/cloud.png",
-                        "title": "腾讯云",
-                        "desc": "腾讯云控制台"
-                    },
-                    {
-                        "url": "https://console.dnspod.cn/",
-                        "logo": "https://cloudcache.tencent-cloud.com/open_proj/proj_qcloud_v2/gateway/shareicons/cloud.png",
-                        "title": "腾讯云DNS",
-                        "desc": "腾讯云DNS控制台"
-                    }
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "name": "博客友链",
+    "en_name": "Blog",
+    "icon": "fa-solid fa-blog",
+    "web": [
+      {
+        "url": "https://blog.wenutu.top",
+        "logo": "/assets/images/logos/main/wenutu.png",
+        "title": "站长博客",
+        "desc": "站长个人博客，仍在不断完善中"
+      }
+    ]
+  },
+  {
+    "name": "站长自用",
+    "en_name": "Private Use",
+    "icon": "fa-solid fa-user",
+    "children": [
+      {
+        "name": "站长工具",
+        "en_name": "Tools",
+        "web": [
+          {
+            "url": "https://tool.lu/ip/",
+            "logo": "",
+            "title": "IP归属查询",
+            "desc": "IP归属地查询"
+          },
+          {
+            "url": "https://www.toolsdaquan.com/ipcheck/",
+            "logo": "",
+            "title": "IP可用性检测",
+            "desc": "IP和端口可用性检测"
+          }
         ]
-    }
+      },
+      {
+        "name": "Docker Build",
+        "en_name": "Docker Build",
+        "web": [
+          {
+            "url": "https://docker.wenutu.top",
+            "logo": "https://www.portainer.io/hubfs/crane-icon.svg",
+            "title": "Docker Portainer",
+            "desc": "Portainer面板 ——Docker"
+          },
+          {
+            "url": "https://alist.wenutu.top",
+            "logo": "https://alist.nn.ci/logo.svg",
+            "title": "Docker Alist",
+            "desc": "Alist网盘聚合 ——Docker"
+          },
+          {
+            "url": "https://xiaoya.wenutu.top",
+            "logo": "https://alist.nn.ci/logo.svg",
+            "title": "Docker xiaoya",
+            "desc": "xiaoya超集 ——Docker"
+          }
+        ]
+      },
+      {
+        "name": "网站运营",
+        "en_name": "Web Operations",
+        "web": [
+          {
+            "url": "https://umami.wenutu.top/",
+            "logo": "https://umami.is/favicon-32x32.png",
+            "title": "Docker Umami",
+            "desc": "站点统计"
+          },
+          {
+            "url": "https://zerossl.com/",
+            "logo": "",
+            "title": "ZeroSSl",
+            "desc": "免费证书部属"
+          }
+        ]
+      },
+      {
+        "name": "网站收录",
+        "en_name": "Web Recoed",
+        "web": [
+          {
+            "url": "https://search.google.com/search-console/about",
+            "logo": "",
+            "title": "Google Search",
+            "desc": "Google 收录"
+          },
+          {
+            "url": "https://www.bing.com/webmasters",
+            "logo": "",
+            "title": "Bing Search",
+            "desc": "Bing 收录"
+          },
+          {
+            "url": "https://ziyuan.baidu.com/",
+            "logo": "",
+            "title": "百度资源搜索平台",
+            "desc": "百度收录"
+          },
+          {
+            "url": "https://www.web-site-map.com/",
+            "logo": "",
+            "title": "Sitemap Generator",
+            "desc": "免登录站点地图生成"
+          }
+        ]
+      },
+      {
+        "name": "服务器",
+        "en_name": "Server",
+        "web": [
+          {
+            "url": "https://console.cloud.tencent.com/",
+            "logo": "https://cloudcache.tencent-cloud.com/open_proj/proj_qcloud_v2/gateway/shareicons/cloud.png",
+            "title": "腾讯云",
+            "desc": "腾讯云控制台"
+          },
+          {
+            "url": "https://console.dnspod.cn/",
+            "logo": "https://cloudcache.tencent-cloud.com/open_proj/proj_qcloud_v2/gateway/shareicons/cloud.png",
+            "title": "腾讯云DNS",
+            "desc": "腾讯云DNS控制台"
+          },
+          {
+            "url": "https://dash.cloudflare.com/",
+            "logo": "",
+            "title": "cloudflare",
+            "desc": "免费的cdn"
+          }
+        ]
+      }
+    ]
+  }
 ]
