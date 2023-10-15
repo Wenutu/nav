@@ -162,6 +162,12 @@
             "logo": "/assets/images/logos/main/zlibrary.png",
             "title": "z-library",
             "desc": "电子书合集"
+          },
+          {
+            "url": "https://zhuanlan.zhihu.com/p/607176446",
+            "logo":"",
+            "title": "z-library镜像",
+            "desc": "z-library镜像"
           }
         ]
       },

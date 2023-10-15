@@ -47,6 +47,18 @@
             "desc": "期刊在线Latex编辑器"
           }
         ]
+      },
+      {
+        "name": "期刊润色",
+        "en_name": "Journal Embellishment",
+        "web": [
+          {
+            "url": "https://www.grammarly.com/",
+            "logo": "",
+            "title": "Grammarly",
+            "desc": "使用 Grammarly 的新人工智能桌面应用程序撰写大胆、清晰、无错误的文章"
+          }
+        ]
       }
     ]
   },
